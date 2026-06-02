@@ -2,7 +2,7 @@ import path from 'path';
 import fs from 'fs';
 import { bundle } from '@remotion/bundler';
 import { renderMedia, selectComposition } from '@remotion/renderer';
-import { loadConfig } from './src/config';
+import { loadConfig } from './src/config.node';
 import type { Format } from './src/types';
 import { FORMAT_DIMENSIONS } from './src/types';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Composition } from 'remotion';
 import { SocialVideo } from './compositions/SocialVideo';
-import { loadConfig, getTotalDurationInFrames } from './config';
+import { getTotalDurationInFrames } from './config';
 import { FORMAT_DIMENSIONS, FPS } from './types';
 import type { Format, VideoConfig } from './types';
 
@@ -15,15 +15,7 @@ const DEFAULT_CONFIG: VideoConfig = {
   formats: ['tiktok', 'youtube', 'instagram'],
 };
 
-function getConfig(): VideoConfig {
-  try {
-    return loadConfig('video.config.json');
-  } catch {
-    return DEFAULT_CONFIG;
-  }
-}
-
-const config = getConfig();
+const config = DEFAULT_CONFIG;
 const durationInFrames = getTotalDurationInFrames(config, FPS);
 
 const FORMATS: Format[] = ['tiktok', 'youtube', 'instagram'];

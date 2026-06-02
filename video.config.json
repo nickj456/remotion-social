@@ -1,0 +1,44 @@
+{
+  "title": "My Brand Video",
+  "brand": {
+    "logo": "public/logo.png",
+    "primaryColor": "#C8FF00",
+    "fontFamily": "Bebas Neue"
+  },
+  "scenes": [
+    {
+      "type": "image-slide",
+      "image": "public/logo.png",
+      "headline": "BUILD YOUR EMPIRE",
+      "subtext": "// the grind starts here",
+      "duration": 3
+    },
+    {
+      "type": "data-scene",
+      "stat": 1200000,
+      "label": "Monthly Views",
+      "duration": 4
+    },
+    {
+      "type": "image-slide",
+      "image": "public/logo.png",
+      "headline": "STAY CONSISTENT",
+      "subtext": "// results don't lie",
+      "duration": 3
+    },
+    {
+      "type": "data-scene",
+      "stat": 847000,
+      "label": "Revenue Generated",
+      "duration": 4
+    },
+    {
+      "type": "image-slide",
+      "image": "public/logo.png",
+      "headline": "FOLLOW FOR MORE",
+      "subtext": "// @yourbrand",
+      "duration": 2
+    }
+  ],
+  "formats": ["tiktok", "youtube", "instagram"]
+}
