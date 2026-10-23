@@ -1,15 +1,23 @@
 {
   "name": "remotion-social",
   "version": "1.0.0",
-  "description": "",
+  "description": "Turn one JSON file into branded social videos for TikTok, YouTube and Instagram.",
   "main": "index.js",
   "scripts": {
     "studio": "npx remotion studio src/index.ts",
     "render": "npx ts-node render.ts",
     "test": "vitest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "remotion",
+    "video",
+    "social-media",
+    "tiktok",
+    "instagram",
+    "youtube",
+    "typescript"
+  ],
+  "author": "Nick Johnson",
   "license": "ISC",
   "dependencies": {
     "@remotion/bundler": "^4.0.471",
